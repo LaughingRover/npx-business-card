@@ -1,0 +1,35 @@
+{
+  "name": "rover",
+  "version": "1.0.0",
+  "description": "A personal card for Joseph Ita (@laughingRover)",
+  "main": "index.js",
+  "bin": {
+	"rover": "./card.js"
+  },
+  "scripts": {
+    "test": "node card.js",
+    "pub": "npm version major & npm publish"
+  },
+  "keywords": [
+	"card",
+	"npm",
+	"npm card",
+	"npx",
+	"npx card",
+	"business card"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaughingRover/npx-business-card.git"
+  },
+  "author": "Joseph Ita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaughingRover/npx-business-card/issues"
+  },
+  "homepage": "https://github.com/LaughingRover/npx-business-card#readme",
+  "dependencies": {
+    "prettyjson": "^1.2.5"
+  }
+}
+
