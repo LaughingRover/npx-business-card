@@ -1,22 +1,22 @@
 {
-  "name": "rover",
-  "version": "1.0.0",
+  "name": "laughingRover",
+  "version": "1.0.1",
   "description": "A personal card for Joseph Ita (@laughingRover)",
   "main": "index.js",
   "bin": {
-	"rover": "./card.js"
+    "rover": "./card.js"
   },
   "scripts": {
     "test": "node card.js",
     "pub": "npm version major & npm publish"
   },
   "keywords": [
-	"card",
-	"npm",
-	"npm card",
-	"npx",
-	"npx card",
-	"business card"
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
   ],
   "repository": {
     "type": "git",
@@ -32,4 +32,3 @@
     "prettyjson": "^1.2.5"
   }
 }
-
